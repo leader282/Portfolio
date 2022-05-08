@@ -1,4 +1,4 @@
-let images = ['../img/image1.jpeg', '../img/image2.jpeg', '../img/image3.jpeg']
+let images = ['img/image1.jpeg', 'img/image2.jpeg', 'img/image3.jpeg']
 
 let image = document.getElementById('bg');
 
