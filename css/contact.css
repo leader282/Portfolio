@@ -1,0 +1,139 @@
+.body{
+    margin: 0px;
+    border: 0px;
+}
+
+.nav {
+    position: fixed;
+}
+
+.navbar-nav > li{
+    padding-left:110px;
+    padding-right:110px;
+}
+
+.container-fluid {
+    font-size: 1.5em;
+}
+
+#heading {
+    font-size: 2em;
+}
+
+.custom-shape-divider-bottom-1651839688 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1651839688 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-bottom-1651839688 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1651859814 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1651859814 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-top-1651859814 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#head {
+    position: relative;
+    color: rgb(0, 153, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 100px;
+    font-family: Kaushan Script, italic;
+    animation-name: animate1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate1 {
+    from{
+        top: 100px;
+    }
+    to{
+        top: 103px;
+    }
+}
+
+#bg {
+    position: relative;
+    background-image: url('../img/contact1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 58vh;
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about {
+    position: relative;
+    min-height: 50vh;
+    min-width: 100%;
+    background-image: linear-gradient(45deg, blue, magenta);
+    margin: 0px;
+    padding: 0px;
+}
+
+.desc {
+    padding: 50px;
+    text-align: center;
+    color: rgb(211, 204, 204);
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    justify-content: center;
+    top: 200px;
+    position: relative;
+    text-decoration: none;
+}
+
+#note {
+    position: relative;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+ion-icon {
+    color: rgb(120, 211, 211);
+    margin: 0 50px;
+}
+
+ion-icon:hover {
+    cursor: pointer;
+    color: rgba(165, 253, 241, 0.513);
+}

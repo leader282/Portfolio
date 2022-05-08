@@ -1,0 +1,141 @@
+.body{
+    margin: 0px;
+    border: 0px;
+}
+
+.nav {
+    position: fixed;
+}
+
+.navbar-nav > li{
+    padding-left:110px;
+    padding-right:110px;
+}
+
+.container-fluid {
+    font-size: 1.5em;
+}
+
+#heading {
+    font-size: 2em;
+}
+
+.custom-shape-divider-bottom-1651839688 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1651839688 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-bottom-1651839688 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1651859814 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1651859814 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-top-1651859814 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.about {
+    position: relative;
+    min-height: 60vh;
+    min-width: 100%;
+    background-image: linear-gradient(45deg, blue, magenta);
+    margin: 0px;
+    padding: 0px;
+}
+
+#bg {
+    position: relative;
+    background-image: url('../img/image2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 58vh;
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#head, #para {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: #ffffffc7;
+    justify-content: flex-start;
+    font-family: Kaushan Script, italic;
+    animation-name: animate1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate1 {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 500px;
+    }
+}
+
+#me {
+    max-width: 20%;
+    max-height: auto;
+    position: relative;
+    -webkit-clip-path: circle(35.0% at 50% 60%);
+    clip-path: circle(35.0% at 50% 60%);
+    transition: all 3s ease;
+}
+
+#me:hover {
+    -webkit-clip-path: circle(70.7% at 50% 50%);
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+#meimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50%;
+}
+
+.desc {
+    text-align: center;
+    color: rgb(211, 204, 204);
+}
+
+.w3-cursive {
+    padding: 5px;
+}
+
+#name {
+    transition: all 3s ease;
+}
+
+#name:hover {
+    transform: skew(30deg);
+}
