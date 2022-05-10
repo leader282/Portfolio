@@ -9,3 +9,9 @@ setInterval(() => {
     image.style.backgroundImage = `url(${images[index]})`
     image.style.transition = 'all 0.5s ease';
 },3000)
+
+var loader = document.getElementById('preloader');
+
+window.addEventListener('load', () => {
+    loader.style.display = 'none';
+})
