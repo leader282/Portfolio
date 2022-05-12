@@ -9,7 +9,6 @@
 
 .navbar-nav > li{
     user-select: none;
-    padding-left:40%;
 }
 
 .container-fluid {
@@ -152,10 +151,8 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 1030px) {
-    .navbar-nav > li{
-        padding-left:30%;
-    }
+.cursive {
+    font-style: italic;
 }
 
 @media screen and (max-width: 860px) {
@@ -189,7 +186,7 @@
 }
 
 @media screen and (max-height: 680px) {
-    .w3-cursive {
+    .cursive {
         padding-bottom: 30px;
     }
 }

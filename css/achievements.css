@@ -9,7 +9,6 @@
 
 .navbar-nav > li{
     user-select: none;
-    padding-left:40%;
 }
 
 .container-fluid {
@@ -135,12 +134,6 @@
 
 .container {
     overflow: hidden;
-}
-
-@media screen and (max-width: 1030px) {
-    .navbar-nav > li{
-        padding-left:30%;
-    }
 }
 
 @media screen and (max-width: 860px) {
